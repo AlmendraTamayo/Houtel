@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+<!-- Google Fonts Open sans (Regular 400, semi-bold 600, bold 700) & Playfair Display: Bold 700 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/img/logo.png" alt="" class="logo__image">
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container">
+            <h1 class="main__title">
+                Disfruta de los paisajes del
+                <span class="main__title-emphasis main__title-emphasis--size--xxl">
+                    Chile
+                </span>
+            </h1>
+            <div class="main__button">
+                <button type="button" class="button button_positive">
+                    Más destinos
+                </button>
+            </div>
+
+        </div>
+    </main>
+    <form class="form">
+            <div class="form__container">
+                <label class="form__label"> Lugar u hotel</label>
+                <input class="form__input-text" type="text" placeholder="Escribe tu destino">
+            </div>
+            <div class="form__container">
+                <label class="form__label">Fecha de llegada</label>
+                <input class="form__input-date" type="date">
+            </div>
+            <div class="form__container">
+                <label class="form__label">Fecha de salida</label>
+                <input class="form__input-date" type="date">
+            </div>
+            <div class="form__container">
+                <label class="form__label">Huéspedes</label>
+                <select class="form__select">
+                    <option value="1">Hotel</option>
+                    <option value="2">Hostel</option>
+                    <option value="3">Departamento</option>
+                </select>
+            </div>
+            <div class="form__container">
+                <label class="form__label">Habitaciones</label>
+                <select class="form__select">
+                    <option value="1">1 habitación</option>
+                    <option value="2">2 habitación</option>
+                    <option value="3">3 habitación</option>
+                    <option value="4">+ de 4</option>
+                </select>
+            </div>
+            <button type="submit" class="button button_default">Buscar</button>
+    </form>
+</body>
+
+</html>
